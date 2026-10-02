@@ -159,12 +159,9 @@ ollama serve
 ## 2. Clone CYBERDEN
 
 ```bash
-git clone https://github.com/your-username/cyberden.git
+git clone https://github.com/ShubhitSardana/cyberden.git
 cd cyberden
 ```
-
-Replace `your-username/cyberden` with the actual repository URL.
-
 ---
 
 ## 3. Create a virtual environment
@@ -510,30 +507,6 @@ ollama list
 
 On Linux, make sure the appropriate clipboard package is installed.
 
-### Wayland
-
-```bash
-sudo pacman -S wl-clipboard
-```
-
-or:
-
-```bash
-sudo apt install wl-clipboard
-```
-
-### X11
-
-```bash
-sudo pacman -S xclip
-```
-
-or:
-
-```bash
-sudo apt install xclip
-```
-
 ---
 
 ## NVIDIA telemetry is unavailable
@@ -632,7 +605,7 @@ CYBERDEN aims to provide a focused environment where you can:
 
 # 🤖 Vibe Coded
 
-CYBERDEN was **vibe coded**.
+CYBERDEN was fully **vibe coded** including this Readme.md.
 
 Built through AI-assisted development, experimentation, iteration, debugging, refactoring, and a healthy amount of terminal chaos.
 
