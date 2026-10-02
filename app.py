@@ -1747,7 +1747,7 @@ class CyberdenApp(App):
                                     eta_str = "--:--"
 
                                 status_lbl.update(f"{status_msg} [{pct:.1f}%]")
-                                metrics_lbl.update(f"{c_mb:.1f}/{t_mb:.1f} MB  │  {speed_mbps:.1f} MB/s  │  ETA: {eta_str}")
+                                metrics_lbl.update(f"{c_mb:.1f}/{t_mb:.1f} MB │ {speed_mbps:.1f} MB/s │ ETA: {eta_str}")
                                 last_time = now
                                 last_bytes = completed
                         else:
